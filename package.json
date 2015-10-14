@@ -1,0 +1,19 @@
+{
+  "name": "eslint-es6-react-flow",
+  "version": "1.0.0",
+  "description": "my common eslint configuration used for es6 / react / flow based projects",
+  "main": ".eslintrc",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsmith72/eslint-es6-react-flow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rsmith72/eslint-es6-react-flow/issues"
+  },
+  "homepage": "https://github.com/rsmith72/eslint-es6-react-flow#readme"
+}
