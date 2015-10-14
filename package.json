@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/rsmith72/eslint-es6-react-flow/issues"
   },
-  "homepage": "https://github.com/rsmith72/eslint-es6-react-flow#readme"
+  "homepage": "https://github.com/rsmith72/eslint-es6-react-flow#readme",
+  "dependencies": {
+    "eslint-config-airbnb": "^0.1.0"
+  }
 }
