@@ -1,5 +1,5 @@
 {
-  "name": "eslint-es6-react-flow",
+  "name": "eslint-config-es6-react-flow",
   "version": "1.0.0",
   "description": "my common eslint configuration used for es6 / react / flow based projects",
   "main": ".eslintrc",
