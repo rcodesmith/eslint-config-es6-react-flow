@@ -17,6 +17,14 @@
   },
   "homepage": "https://github.com/rsmith72/eslint-es6-react-flow#readme",
   "dependencies": {
-    "eslint-config-airbnb": "^0.1.0"
+    "babel-eslint": "6.1.2",
+    "eslint": "3.3.1",
+    "eslint-config-airbnb": "10.0.1",
+    "eslint-friendly-formatter": "2.0.6",
+    "eslint-loader": "1.5.0",
+    "eslint-plugin-flowtype": "^2.11.1",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-jsx-a11y": "^2.2.0",
+    "eslint-plugin-react": "6.1.2"
   }
 }

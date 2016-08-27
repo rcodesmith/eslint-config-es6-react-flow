@@ -1,8 +1,6 @@
 {
-  "ecmaFeatures": {
-    "jsx": true,
-    "modules": true
-  },
+  "extends": "eslint-config-airbnb",
+  "parser": "babel-eslint",
   "env": {
     "browser": true,
     "mocha": true,
@@ -36,9 +34,43 @@
     //Temporarirly disabled due to a possible bug in babel-eslint (todomvc example)
     "block-scoped-var": 0,
     // Temporarily disabled for test/* until babel/babel-eslint#33 is resolved
-    "padded-blocks": 0
+    "padded-blocks": 0,
+
+    // Flow-specific rules
+    "flowtype/define-flow-type": 1,
+    "flowtype/require-parameter-type": 1,
+    "flowtype/require-return-type": [
+      1,
+      "always",
+      {
+        "annotateUndefined": "never"
+      }
+    ],
+    "flowtype/space-after-type-colon": [
+      1,
+      "always"
+    ],
+    "flowtype/space-before-type-colon": [
+      1,
+      "never"
+    ],
+    "flowtype/type-id-match": [
+      1,
+      "^([A-Z][a-z0-9]+)+Type$"
+    ],
+    "flowtype/use-flow-type": 1,
+    "flowtype/valid-syntax": 1
   },
+
+  "settings": {
+    "flowtype": {
+      "onlyFilesWithFlowAnnotation": true
+    }
+  },
+
+
   "plugins": [
-    "react"
+    "react",
+    "flowtype"
   ]
 }
