@@ -23,6 +23,14 @@
     "prefer-const": 0,
     "new-cap": 0,
     "no-console": 2,
+
+    "no-param-reassign": [
+      "error",
+      {
+        "props": false
+      }
+    ],
+
     // =========
 
     "react/jsx-uses-react": 2,
