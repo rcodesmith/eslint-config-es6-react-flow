@@ -9,6 +9,11 @@
   "rules": {
     // TODO fix this must be 2
     "valid-jsdoc": 0,
+    "no-underscore-dangle": ["error", { "allowAfterSuper": true, "allowAfterThis": true}],
+
+    "max-len": ["error", 120],
+    "newline-per-chained-call": 0,
+
     // TODO ========= remove this
     "quotes": [2, "double", "avoid-escape"],
     "comma-dangle": 0,
